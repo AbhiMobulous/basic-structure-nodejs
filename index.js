@@ -10,6 +10,7 @@ const bodyParser=require('body-parser');
 app.use(bodyParser.json()); 
 app.use(express.json()); 
 
+
 app.use('/api/vi',rootRoute);
 
 app.listen(process.env.PORT,()=>{
